@@ -260,7 +260,7 @@ CREATE TABLE IF NOT EXISTS `stats_useragent_mem` (
 CREATE TABLE IF NOT EXISTS `stats_generic` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `from_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `to_date` timestamp NOT NULL DEFAULT '1971-01-01 00:00:01',
+  `to_date` timestamp NOT NULL DEFAULT '1971-01-01 03:00:01',
   `type` varchar(50) NOT NULL DEFAULT '',
   `tag` varchar(50) NOT NULL DEFAULT '',
   `total` int(20) NOT NULL,
